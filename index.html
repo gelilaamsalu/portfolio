@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front end web developer</p>
+          <h1>Hi, I'm <br /><span> Gelila Amsalu</span></h1>
+        </div>
+      </div>
+    </div>
+    <div id="About">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/photo_2025-04-01_20-13-21.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              As 3rd year Computer Science student at Bahir Dar University with a strong passion for front-end web
+               development. I enjoy turning ideas into interactive and visually appealing websites.
+                I'm currently focused on building responsive, user-friendly 
+               interfaces and improving my skills through personal projects and continuous learning.
+
+I'm eager to gain real-world experience through an internship where I can contribute to a creative team,
+ grow as a developer, and build impactful web applications. I'm a fast learner, detail-oriented, and always
+  excited to take on new challenges.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>ui/ux </span><br />Designing Web interfaces</li>
+                <li><span>Web Development </span><br />Web App Development</li>
+                <li>
+                  <span>soft skills </span><br />Problem-solving mindset<br>
+
+                  Eagerness to learn new technologies<br>
+                  
+                  Attention to detail<br>
+                  
+                  Good communication and teamwork<br>
+                  
+                  Time management and project planning<br>
+                  
+                  Adaptability and willingness to take feedback<br>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents " id="experience">
+              <ul>
+                <li><span>2024-current </span><br />Designing Website</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Student at BAHIRDAY UNIVERSITY </span><br />Computer
+                  science
+                </li>
+                <li>
+                  <span>udacity </span><br />fundamentals of programing<br />fundamentals
+                  to AI
+                </li>
+                <li><span>Free code comp</span><br />ML/AI</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------services------------------>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Design</h2>
+            <p>I build mobile-first,fully responsive websites that look great on all screen sizes and devices</p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>UI/UX Design</h2>
+            <p>I translate design mockups
+              into smooth,interactive and acessible user interfaces using HTML,css,javascript and modern frameworks</p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fab fa-app-store"></i>
+            <h2>Website Redesign</h2>
+            <p>I modernize outdated websites with fresh 
+              visuals , smooth animation ,and responsive layouts</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------------------portfolio-------------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/photo_2025-04-01_20-13-58.jpg" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                The app connects you yo the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/photo_2025-04-01_20-14-12.jpg" alt="" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                The app connects you yo the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/photo_2025-04-01_20-13-21.jpg" alt="" />
+            <div class="layer">
+              <h3>Online Shoping App</h3>
+              <p>
+                The app connects you yo the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- ----------------------------- ---contact-------- ------------>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>gelilaamsalu551@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>09-46-16-21-91</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/share/1Arm8g3tLY/"><i class="fab fa-facebook"></i></a>
+              <a href="https://t.me/Gelilaamsalu"><i class="fa-brands fa-telegram"></i></a>
+              <a href="https://www.instagram.com/gelila_amsalu?igsh=MTR5NWxxd2VlZzVpaA=="><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/gelila-amsalu-8b6703337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn btn2">Download CV</a>
+            <!------------------need to connect cv dont forget----------------------------->
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required >
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              >
+              <textarea
+                name="Message"
+                rows="6"
+                aria-placeholder="Your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p><i class="fas fa-heart"></i> Gelila Amsalu  Front-End Developer</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+   <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbxQ8OndyHqARAouvumKiN49fvAITIglf-4qVVfKgdT_PZy3l9HcoVGdT6SxsdgkokiB/exec"
+      const form = document.forms["submit-to-google-sheet"]
+      const msg=document.getElementById("msg")
+
+      form.addEventListener('submit', e  => { 
+        e.preventDefault()
+      fetch(scriptURL,{method:'POST',body:new FormData(form)})
+      .then(response  => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!',error.message))
+    })
+  
+    </script>
+   
+  </body>
+</html>
